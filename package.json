@@ -1,0 +1,55 @@
+{
+  "name": "transitionend",
+  "version": "1.0.0",
+  "description": "Cross-browser ontransitionend event",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "scripts": {
+    "test": "karma start karma.config.js",
+    "prepare": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnields/ontransitionend.git"
+  },
+  "keywords": [
+    "transition",
+    "end",
+    "ontransition",
+    "ontransitionend",
+    "transitionend"
+  ],
+  "author": "Joseph Nields <jnields@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jnields/ontransitionend/issues"
+  },
+  "homepage": "https://github.com/jnields/ontransitionend#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "karma": "^3.0.0",
+    "karma-babel-preprocessor": "^8.0.0-beta.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-mocha": "^1.3.0",
+    "karma-opera-launcher": "^1.0.0",
+    "karma-rollup-preprocessor": "^6.0.0",
+    "karma-safari-launcher": "^1.0.0",
+    "mocha": "^5.1.1",
+    "rollup": "^0.60.7",
+    "rollup-plugin-babel": "^4.0.2",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "sinon": "^5.0.7"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.46"
+  }
+}
